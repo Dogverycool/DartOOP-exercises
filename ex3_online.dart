@@ -61,7 +61,7 @@ void main() {
   // เรียกใช้ pay(laundryFee) และพิมพ์ใบเสร็จออกมา
 
   PaymentProcessor method2 = CoinSlotProcessor(50.0);;
-  method2.pay(laundryFee);
+  method2.pay(20.0);
   print(method2.getReceipt());
   
 }
