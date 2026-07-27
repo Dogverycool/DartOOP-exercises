@@ -21,7 +21,7 @@ class UserProfile {
   }
   // TODO 1: สร้าง Getter สำหรับ age
   // คำใบ้: ต้องคืนค่าเป็น int และใช้คีย์เวิร์ด 'get'
-  get age {
+  int get age {
     return _age;
   }
   
